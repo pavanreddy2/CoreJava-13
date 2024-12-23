@@ -12,7 +12,7 @@ public class StaticVariableExample {
 
     public static void main(String[] args) {
 
-        //accessing the Static Variable
+        //accessing the Static Variable Using ClassName
         System.out.println(StaticVariableExample.d);
         System.out.println("The value of static variable is :" + StaticVariableExample.d);
 
@@ -22,8 +22,8 @@ public class StaticVariableExample {
         //Accessing the static variable using new Keyword.
         // ClassName refName = new ClassName();
         StaticVariableExample ref = new StaticVariableExample();
-        System.out.println("Accessing the static variable using new Kewyord: " + ref.ch);
-        System.out.println("Accessing the static variable using new Kewyord: " + ref.d);
+        System.out.println("Accessing the static variable using new Keyword: " + ref.ch);
+        System.out.println("Accessing the static variable using new Keyword: " + ref.d);
 
     }
 }
