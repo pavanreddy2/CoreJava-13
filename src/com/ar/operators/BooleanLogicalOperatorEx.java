@@ -14,6 +14,7 @@ public class BooleanLogicalOperatorEx {
         System.out.println(a1 && a1); // true
         System.out.println(a2 && a3); // false
         System.out.println(a1 || a2); // true
+
         System.out.println(!a3);  // false
 
         System.out.println(a2 && a4); // false
@@ -25,5 +26,7 @@ public class BooleanLogicalOperatorEx {
 
        boolean isEligible =  (age >= 18) && isCitizen;  // 24 >=18 - true && true --> true
         System.out.println(isEligible);
+
+        System.out.println(a2 || a4);
     }
 }
